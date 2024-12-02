@@ -30,6 +30,8 @@ fn run_solution(day: u8, part: u8) {
     match (day, part) {
         (1, 1) => println!("{}", day01::part1::solution::main()),
         (1, 2) => println!("{}", day01::part2::solution::main()),
+        (2, 1) => println!("{}", day02::part1::solution::main()),
+        (2, 2) => println!("{}", day02::part2::solution::main()),
         _ => println!(
             "Solution for Day {} Part {} is not implemented yet.",
             day, part

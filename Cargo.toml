@@ -1,4 +1,4 @@
-workspace = { members = ["day01", "utils"] }
+workspace = { members = ["day01", "day02", "utils"] }
 [package]
 name = "advent-of-code"
 version = "0.1.0"
@@ -9,3 +9,4 @@ edition = "2021"
 [dependencies]
 clap = { version = "4.5.21", features = ["derive"] }
 day01 = { path = "./day01" }
+day02 = { path = "./day02" }

@@ -40,7 +40,7 @@ cargo run -- --day 13 --part 2 #Run solution for day 13 part 2
 | 1   | &check; | &check; |
 | 2   | &check; | &check; |
 | 3   | &check; | &check; |
-| 4   |         |         |
+| 4   | &check; |         |
 | 5   |         |         |
 | 6   |         |         |
 | 7   |         |         |

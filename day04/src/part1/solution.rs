@@ -113,7 +113,7 @@ mod tests {
     use super::*;
 
     #[test]
-    fn test_find_xmas_to_the_right() {
+    fn test_is_xmas_right() {
         let matrix = vec![
             vec!['M', 'A', 'S', 'A', 'M'],
             vec!['S', 'X', 'M', 'A', 'S'],
@@ -128,7 +128,7 @@ mod tests {
     }
 
     #[test]
-    fn test_find_xmas_to_the_left() {
+    fn test_is_xmas_left() {
         let matrix = vec![
             vec!['M', 'X', 'S', 'A', 'M'],
             vec!['S', 'X', 'M', 'A', 'S'],
@@ -145,7 +145,7 @@ mod tests {
     }
 
     #[test]
-    fn test_find_xmas_up() {
+    fn test_is_xmas_up() {
         let matrix = vec![
             vec!['S', 'X', 'S', 'A', 'M'],
             vec!['A', 'X', 'M', 'A', 'S'],
@@ -163,7 +163,7 @@ mod tests {
     }
 
     #[test]
-    fn test_find_xmas_down() {
+    fn test_is_xmas_down() {
         let matrix = vec![
             vec!['S', 'X', 'S', 'A', 'M'],
             vec!['A', 'M', 'M', 'X', 'S'],
